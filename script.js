@@ -1,7 +1,7 @@
 async function getVisitorCount() {
     try {
         // REPLACE THIS URL WITH YOUR ACTUAL API GATEWAY INVOKE URL
-        const apiURL = "https://g07be1xec9.execute-api.ap-south-1.amazonaws.com/counter";
+        const apiURL = "https://m2k1f95lv7.execute-api.ap-south-1.amazonaws.com/counter";
 
         const response = await fetch(apiURL);
         const data = await response.text();
